@@ -57,7 +57,7 @@
     (pad_drill 1)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFBBF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 3178497)
       (usegerberextensions true)
@@ -719,7 +719,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294351)
-    (at 182.626 87.122)
+    (at 187.198 84.0994)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1E734A)

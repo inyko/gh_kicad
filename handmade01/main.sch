@@ -36,7 +36,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "8 dec 2017"
+Date "9 dec 2017"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1985,13 +1985,19 @@ Wire Wire Line
 	1600 4950 1700 4950
 Connection ~ 1600 4950
 Wire Wire Line
-	4500 2050 4300 2050
+	4500 2050 4400 2050
+Wire Wire Line
+	4400 2050 4300 2050
 Connection ~ 4400 2050
 Wire Wire Line
 	5200 2050 5100 2050
 Connection ~ 5100 2050
 Wire Wire Line
-	7800 2050 8100 2050
+	7800 2050 7900 2050
+Wire Wire Line
+	7900 2050 8000 2050
+Wire Wire Line
+	8000 2050 8100 2050
 Connection ~ 8000 2050
 Connection ~ 7900 2050
 Wire Wire Line
@@ -2015,10 +2021,14 @@ Connection ~ 1700 5050
 Wire Wire Line
 	1400 5400 1200 5400
 Wire Wire Line
-	1200 5150 1200 5550
+	1200 5150 1200 5400
+Wire Wire Line
+	1200 5400 1200 5550
 Connection ~ 1200 5400
 Wire Wire Line
-	1000 5150 1000 5550
+	1000 5150 1000 5400
+Wire Wire Line
+	1000 5400 1000 5550
 Connection ~ 1000 5400
 Wire Wire Line
 	1000 5400 800  5400
@@ -2031,7 +2041,9 @@ Wire Wire Line
 Wire Wire Line
 	1550 7550 1100 7550
 Wire Wire Line
-	3350 7550 3350 8150
+	3350 7550 3350 7950
+Wire Wire Line
+	3350 7950 3350 8150
 Connection ~ 3350 7950
 Wire Wire Line
 	1100 7750 1550 7750
@@ -2047,11 +2059,47 @@ Wire Wire Line
 	2200 9800 2850 9800
 Connection ~ 2850 9800
 Wire Wire Line
-	12500 1800 13000 1800
+	12500 1800 12600 1800
 Wire Wire Line
-	13300 1800 13800 1800
+	12600 1800 12700 1800
 Wire Wire Line
-	14050 7150 12950 7150
+	12700 1800 12800 1800
+Wire Wire Line
+	12800 1800 12900 1800
+Wire Wire Line
+	12900 1800 13000 1800
+Wire Wire Line
+	13300 1800 13400 1800
+Wire Wire Line
+	13400 1800 13500 1800
+Wire Wire Line
+	13500 1800 13600 1800
+Wire Wire Line
+	13600 1800 13700 1800
+Wire Wire Line
+	13700 1800 13800 1800
+Wire Wire Line
+	14050 7150 13950 7150
+Wire Wire Line
+	13950 7150 13850 7150
+Wire Wire Line
+	13850 7150 13750 7150
+Wire Wire Line
+	13750 7150 13650 7150
+Wire Wire Line
+	13650 7150 13550 7150
+Wire Wire Line
+	13550 7150 13450 7150
+Wire Wire Line
+	13450 7150 13350 7150
+Wire Wire Line
+	13350 7150 13250 7150
+Wire Wire Line
+	13250 7150 13150 7150
+Wire Wire Line
+	13150 7150 13050 7150
+Wire Wire Line
+	13050 7150 12950 7150
 Connection ~ 12950 7150
 Connection ~ 13300 1800
 Connection ~ 12500 1800
