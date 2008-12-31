@@ -1,4 +1,4 @@
-update=2017/12/8 星期五 下午 08:54:32
+update=Tue 12 Dec 2017 10:29:41 PM CST
 version=1
 last_client=pcbnew
 [general]
@@ -51,10 +51,10 @@ EquName1=devcms
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=1.000000000000
-PadDrillOvalY=1.000000000000
-PadSizeH=1.550000000000
-PadSizeV=1.550000000000
+PadDrill=0.000000000000
+PadDrillOvalY=0.000000000000
+PadSizeH=1.200000000000
+PadSizeV=0.750000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -84,4 +84,4 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-LibName17=C:/cygwin64/home/Administrator/Github/gh_kicad/mylib/myft
+LibName17=/home/user/Data/gh_kicad/mylib/myft
