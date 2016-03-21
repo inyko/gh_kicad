@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Tue 01 Mar 2016 03:09:09 PM CST
+
+BeginCmp
+TimeStamp = /56D53F30;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D53F08;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = 3PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D53F21;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+EndListe
