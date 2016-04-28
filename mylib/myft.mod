@@ -1,11 +1,12 @@
-PCBNEW-LibModule-V1  Thu 28 Apr 2016 11:01:19 AM CST
+PCBNEW-LibModule-V1  Thu 28 Apr 2016 06:00:21 PM CST
 # encoding utf-8
 Units mm
 $INDEX
 FH23_61S_0.3SHW
+FPC215F0_40_CTT
 $EndINDEX
 $MODULE FH23_61S_0.3SHW
-Po 0 0 0 15 57217CF4 00000000 ~~
+Po 0 0 0 15 5721D9C6 00000000 ~~
 Li FH23_61S_0.3SHW
 Sc 0
 AR 
@@ -24,7 +25,7 @@ Sh "34" R 0.25 1.25 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 9.8 -2.05
+Po 0.9 -2.05
 $EndPAD
 $PAD
 Sh "38" R 0.25 1.25 0 0 0
@@ -440,4 +441,317 @@ Ne 0 ""
 Po -8.1 -2.05
 $EndPAD
 $EndMODULE FH23_61S_0.3SHW
+$MODULE FPC215F0_40_CTT
+Po 0 0 0 15 5721DF32 00000000 ~~
+Li FPC215F0_40_CTT
+Sc 0
+AR 
+Op 0 0 0
+T0 0 5.8 1 1 0 0.15 N V 21 N "FPC215F0_40_CTT"
+T1 0 3.4 1 1 0 0.15 N V 21 N "VAL**"
+DS -22.2 0 -22.2 5.8 0.25 21
+DS -22.2 5.8 -21.5 5.8 0.25 21
+DS -21.5 5.8 -21.5 8.3 0.25 21
+DS -21.5 8.3 -7.4 8.3 0.25 21
+DS -7.4 8.3 20.2 8.3 0.25 21
+DS 20.2 8.3 22.3 8.3 0.25 21
+DS 22.3 8.3 22.3 5.8 0.25 21
+DS 22.3 5.8 23.2 5.8 0.25 21
+DS 23.2 5.8 23.2 0 0.25 21
+DS 23.2 0 -22.2 0 0.25 21
+$PAD
+Sh "22" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 2 0
+$EndPAD
+$PAD
+Sh "21" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 1 0
+$EndPAD
+$PAD
+Sh "23" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 3 0
+$EndPAD
+$PAD
+Sh "24" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 4 0
+$EndPAD
+$PAD
+Sh "28" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 8 0
+$EndPAD
+$PAD
+Sh "27" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 7 0
+$EndPAD
+$PAD
+Sh "25" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "26" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 6 0
+$EndPAD
+$PAD
+Sh "34" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 14 0
+$EndPAD
+$PAD
+Sh "33" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 13 0
+$EndPAD
+$PAD
+Sh "35" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 15 0
+$EndPAD
+$PAD
+Sh "36" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 16 0
+$EndPAD
+$PAD
+Sh "32" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 12 0
+$EndPAD
+$PAD
+Sh "31" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 11 0
+$EndPAD
+$PAD
+Sh "29" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 9 0
+$EndPAD
+$PAD
+Sh "30" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 10 0
+$EndPAD
+$PAD
+Sh "40" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 30.2 2.05
+$EndPAD
+$PAD
+Sh "39" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 19 0
+$EndPAD
+$PAD
+Sh "37" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 17 0
+$EndPAD
+$PAD
+Sh "38" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 18 0
+$EndPAD
+$PAD
+Sh "18" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -2 0
+$EndPAD
+$PAD
+Sh "17" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -3 0
+$EndPAD
+$PAD
+Sh "19" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -1 0
+$EndPAD
+$PAD
+Sh "20" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "10" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -28.6 1.25
+$EndPAD
+$PAD
+Sh "9" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -30.6 1.25
+$EndPAD
+$PAD
+Sh "11" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -26.6 1.25
+$EndPAD
+$PAD
+Sh "12" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -24.6 1.25
+$EndPAD
+$PAD
+Sh "16" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -4 0
+$EndPAD
+$PAD
+Sh "15" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -5 0
+$EndPAD
+$PAD
+Sh "13" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -22.6 1.25
+$EndPAD
+$PAD
+Sh "14" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -20.6 1.25
+$EndPAD
+$PAD
+Sh "6" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -36.6 1.25
+$EndPAD
+$PAD
+Sh "5" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -38.6 1.25
+$EndPAD
+$PAD
+Sh "7" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -34.6 1.25
+$EndPAD
+$PAD
+Sh "8" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -32.6 1.25
+$EndPAD
+$PAD
+Sh "4" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -40.6 1.25
+$EndPAD
+$PAD
+Sh "3" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -42.6 1.25
+$EndPAD
+$PAD
+Sh "1" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -75.4 3.3
+$EndPAD
+$PAD
+Sh "2" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -44.6 1.25
+$EndPAD
+$PAD
+Sh "41" R 2 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 23.2 3.65
+$EndPAD
+$PAD
+Sh "42" R 2 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -22.2 3.65
+$EndPAD
+$EndMODULE FPC215F0_40_CTT
 $EndLIBRARY
