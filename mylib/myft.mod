@@ -1,11 +1,13 @@
-PCBNEW-LibModule-V1  Fri 29 Apr 2016 09:53:27 PM CST
+PCBNEW-LibModule-V1  Sat 30 Apr 2016 05:30:09 PM CST
 # encoding utf-8
 Units mm
 $INDEX
 C_0603_HandSoldering
 C_0805_HandSoldering
 FH23_61S_0.3SHW
-FPC215F0_40_CTT
+FPC_40Pin_1.0mm
+FPC_40Pin_1.0mm_NoHead
+FPC_40Pin_1.0mm_NoHead_Rev
 QFN-16-1EP_3x3mm_Pitch0.5mm
 QFN-16-1EP_4x4mm_Pitch0.65mm
 R_0603_HandSoldering
@@ -89,7 +91,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE C_0805_HandSoldering
 $MODULE FH23_61S_0.3SHW
-Po 0 0 0 15 57221F5B 00000000 ~~
+Po 0 0 0 15 57246BFC 00000000 ~~
 Li FH23_61S_0.3SHW
 Sc 0
 AR 
@@ -107,436 +109,436 @@ Sh "36" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 1.5 -2.05
+Po 1.5 -3
 $EndPAD
 $PAD
 Sh "34" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 0.9 -2.05
+Po 0.9 -3
 $EndPAD
 $PAD
 Sh "38" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 2.1 -2.05
+Po 2.1 -3
 $EndPAD
 $PAD
 Sh "40" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 2.7 -2.05
+Po 2.7 -3
 $EndPAD
 $PAD
 Sh "48" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 5.1 -2.05
+Po 5.1 -3
 $EndPAD
 $PAD
 Sh "46" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 4.5 -2.05
+Po 4.5 -3
 $EndPAD
 $PAD
 Sh "42" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 3.3 -2.05
+Po 3.3 -3
 $EndPAD
 $PAD
 Sh "44" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 3.9 -2.05
+Po 3.9 -3
 $EndPAD
 $PAD
 Sh "60" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 8.7 -2.05
+Po 8.7 -3
 $EndPAD
 $PAD
 Sh "58" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 8.1 -2.05
+Po 8.1 -3
 $EndPAD
 $PAD
 Sh "56" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 7.5 -2.05
+Po 7.5 -3
 $EndPAD
 $PAD
 Sh "54" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 6.9 -2.05
+Po 6.9 -3
 $EndPAD
 $PAD
 Sh "50" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 5.7 -2.05
+Po 5.7 -3
 $EndPAD
 $PAD
 Sh "52" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 6.3 -2.05
+Po 6.3 -3
 $EndPAD
 $PAD
 Sh "20" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -3.3 -2.05
+Po -3.3 -3
 $EndPAD
 $PAD
 Sh "18" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -3.9 -2.05
+Po -3.9 -3
 $EndPAD
 $PAD
 Sh "22" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -2.7 -2.05
+Po -2.7 -3
 $EndPAD
 $PAD
 Sh "24" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -2.1 -2.05
+Po -2.1 -3
 $EndPAD
 $PAD
 Sh "32" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 0.3 -2.05
+Po 0.3 -3
 $EndPAD
 $PAD
 Sh "30" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -0.3 -2.05
+Po -0.3 -3
 $EndPAD
 $PAD
 Sh "26" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -1.5 -2.05
+Po -1.5 -3
 $EndPAD
 $PAD
 Sh "28" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -0.9 -2.05
+Po -0.9 -3
 $EndPAD
 $PAD
 Sh "12" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -5.7 -2.05
+Po -5.7 -3
 $EndPAD
 $PAD
 Sh "10" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -6.3 -2.05
+Po -6.3 -3
 $EndPAD
 $PAD
 Sh "14" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -5.1 -2.05
+Po -5.1 -3
 $EndPAD
 $PAD
 Sh "16" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -4.5 -2.05
+Po -4.5 -3
 $EndPAD
 $PAD
 Sh "8" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -6.9 -2.05
+Po -6.9 -3
 $EndPAD
 $PAD
 Sh "6" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -7.5 -2.05
+Po -7.5 -3
 $EndPAD
 $PAD
 Sh "35" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 1.2 2.1
+Po 1.2 2.5
 $EndPAD
 $PAD
 Sh "33" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 0.6 2.1
+Po 0.6 2.5
 $EndPAD
 $PAD
 Sh "37" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 1.8 2.1
+Po 1.8 2.5
 $EndPAD
 $PAD
 Sh "39" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 2.4 2.1
+Po 2.4 2.5
 $EndPAD
 $PAD
 Sh "47" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 4.8 2.1
+Po 4.8 2.5
 $EndPAD
 $PAD
 Sh "45" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 4.2 2.1
+Po 4.2 2.5
 $EndPAD
 $PAD
 Sh "41" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 3 2.1
+Po 3 2.5
 $EndPAD
 $PAD
 Sh "43" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 3.6 2.1
+Po 3.6 2.5
 $EndPAD
 $PAD
 Sh "59" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 8.4 2.1
+Po 8.4 2.5
 $EndPAD
 $PAD
 Sh "57" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 7.8 2.1
+Po 7.8 2.5
 $EndPAD
 $PAD
 Sh "61" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 9 2.1
+Po 9 2.5
 $EndPAD
 $PAD
 Sh "55" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 7.2 2.1
+Po 7.2 2.5
 $EndPAD
 $PAD
 Sh "53" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 6.6 2.1
+Po 6.6 2.5
 $EndPAD
 $PAD
 Sh "49" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 5.4 2.1
+Po 5.4 2.5
 $EndPAD
 $PAD
 Sh "51" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 6 2.1
+Po 6 2.5
 $EndPAD
 $PAD
 Sh "19" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -3.6 2.1
+Po -3.6 2.5
 $EndPAD
 $PAD
 Sh "17" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -4.2 2.1
+Po -4.2 2.5
 $EndPAD
 $PAD
 Sh "21" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -3 2.1
+Po -3 2.5
 $EndPAD
 $PAD
 Sh "23" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -2.4 2.1
+Po -2.4 2.5
 $EndPAD
 $PAD
 Sh "31" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po 0 2.1
+Po 0 2.5
 $EndPAD
 $PAD
 Sh "29" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -0.6 2.1
+Po -0.6 2.5
 $EndPAD
 $PAD
 Sh "25" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -1.8 2.1
+Po -1.8 2.5
 $EndPAD
 $PAD
 Sh "27" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -1.2 2.1
+Po -1.2 2.5
 $EndPAD
 $PAD
 Sh "11" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -6 2.1
+Po -6 2.5
 $EndPAD
 $PAD
 Sh "9" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -6.6 2.1
+Po -6.6 2.5
 $EndPAD
 $PAD
 Sh "13" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -5.4 2.1
+Po -5.4 2.5
 $EndPAD
 $PAD
 Sh "15" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -4.8 2.1
+Po -4.8 2.5
 $EndPAD
 $PAD
 Sh "7" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -7.2 2.1
+Po -7.2 2.5
 $EndPAD
 $PAD
 Sh "5" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -7.8 2.1
+Po -7.8 2.5
 $EndPAD
 $PAD
 Sh "1" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -9 2.1
+Po -9 2.5
 $EndPAD
 $PAD
 Sh "3" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -8.4 2.1
+Po -8.4 2.5
 $EndPAD
 $PAD
 Sh "2" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -8.7 -2.05
+Po -8.7 -3
 $EndPAD
 $PAD
 Sh "4" R 0.25 2.5 0 0 0
 Dr 0 0 0
 At CONN N 00808000
 Ne 0 ""
-Po -8.1 -2.05
+Po -8.1 -3
 $EndPAD
 $EndMODULE FH23_61S_0.3SHW
-$MODULE FPC215F0_40_CTT
-Po 0 0 0 15 57223685 00000000 ~~
-Li FPC215F0_40_CTT
+$MODULE FPC_40Pin_1.0mm
+Po 0 0 0 15 57247A14 00000000 ~~
+Li FPC_40Pin_1.0mm
 Sc 0
 AR 
 Op 0 0 0
-T0 0 5.8 1 1 0 0.15 N V 21 N "FPC215F0_40_CTT"
+T0 0 5.8 1 1 0 0.15 N V 21 N "FPC_40Pin_1.0mm"
 T1 0 3.4 1 1 0 0.15 N V 21 N "VAL**"
 DS -22.2 0 -22.2 5.8 0.25 21
 DS -22.2 5.8 -21.5 5.8 0.25 21
@@ -842,7 +844,605 @@ At CONN N 00808000
 Ne 0 ""
 Po -23 3.65
 $EndPAD
-$EndMODULE FPC215F0_40_CTT
+$EndMODULE FPC_40Pin_1.0mm
+$MODULE FPC_40Pin_1.0mm_NoHead
+Po 0 0 0 15 572479E2 00000000 ~~
+Li FPC_40Pin_1.0mm_NoHead
+Sc 0
+AR 
+Op 0 0 0
+T0 0 5.8 1 1 0 0.15 N V 21 N "FPC_40Pin_1.0mm_NoHead"
+T1 0 3.4 1 1 0 0.15 N V 21 N "VAL**"
+DS -22.2 0 -22.2 5.8 0.25 21
+DS -22.2 5.8 -21.5 5.8 0.25 21
+DS -21.5 5.8 -21.5 8.3 0.25 21
+DS -21.5 8.3 -7.4 8.3 0.25 21
+DS -7.4 8.3 20.2 8.3 0.25 21
+DS 20.2 8.3 22.3 8.3 0.25 21
+DS 22.3 8.3 22.3 5.8 0.25 21
+DS 22.3 5.8 23.2 5.8 0.25 21
+DS 23.2 5.8 23.2 0 0.25 21
+DS 23.2 0 -22.2 0 0.25 21
+$PAD
+Sh "19" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 2.02 0
+$EndPAD
+$PAD
+Sh "20" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 1.01 0
+$EndPAD
+$PAD
+Sh "18" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 3.03 0
+$EndPAD
+$PAD
+Sh "17" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 4.04 0
+$EndPAD
+$PAD
+Sh "13" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 8.08 0
+$EndPAD
+$PAD
+Sh "14" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 7.07 0
+$EndPAD
+$PAD
+Sh "16" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 5.05 0
+$EndPAD
+$PAD
+Sh "15" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 6.06 0
+$EndPAD
+$PAD
+Sh "7" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 14.14 0
+$EndPAD
+$PAD
+Sh "8" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 13.13 0
+$EndPAD
+$PAD
+Sh "6" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 15.15 0
+$EndPAD
+$PAD
+Sh "5" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 16.16 0
+$EndPAD
+$PAD
+Sh "9" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 12.12 0
+$EndPAD
+$PAD
+Sh "10" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 11.11 0
+$EndPAD
+$PAD
+Sh "12" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 9.09 0
+$EndPAD
+$PAD
+Sh "11" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 10.1 0
+$EndPAD
+$PAD
+Sh "1" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 20.2 0
+$EndPAD
+$PAD
+Sh "2" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 19.19 0
+$EndPAD
+$PAD
+Sh "4" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 17.17 0
+$EndPAD
+$PAD
+Sh "3" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 18.18 0
+$EndPAD
+$PAD
+Sh "23" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -2.02 0
+$EndPAD
+$PAD
+Sh "24" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -3.03 0
+$EndPAD
+$PAD
+Sh "22" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -1.01 0
+$EndPAD
+$PAD
+Sh "21" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "31" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -10.1 0
+$EndPAD
+$PAD
+Sh "32" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -11.11 0
+$EndPAD
+$PAD
+Sh "30" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -9.09 0
+$EndPAD
+$PAD
+Sh "29" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -8.08 0
+$EndPAD
+$PAD
+Sh "25" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -4.04 0
+$EndPAD
+$PAD
+Sh "26" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -5.05 0
+$EndPAD
+$PAD
+Sh "28" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -7.07 0
+$EndPAD
+$PAD
+Sh "27" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -6.06 0
+$EndPAD
+$PAD
+Sh "35" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -14.14 0
+$EndPAD
+$PAD
+Sh "36" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -15.15 0
+$EndPAD
+$PAD
+Sh "34" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -13.13 0
+$EndPAD
+$PAD
+Sh "33" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -12.12 0
+$EndPAD
+$PAD
+Sh "37" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -16.16 0
+$EndPAD
+$PAD
+Sh "38" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -17.17 0
+$EndPAD
+$PAD
+Sh "40" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -19.19 0
+$EndPAD
+$PAD
+Sh "39" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -18.18 0
+$EndPAD
+$EndMODULE FPC_40Pin_1.0mm_NoHead
+$MODULE FPC_40Pin_1.0mm_NoHead_Rev
+Po 0 0 0 15 57247A47 00000000 ~~
+Li FPC_40Pin_1.0mm_NoHead_Rev
+Sc 0
+AR 
+Op 0 0 0
+T0 0 5.8 1 1 0 0.15 N V 21 N "FPC_40Pin_1.0mm_NoHead_Rev"
+T1 0 3.4 1 1 0 0.15 N V 21 N "VAL**"
+DS -22.2 0 -22.2 5.8 0.25 21
+DS -22.2 5.8 -21.5 5.8 0.25 21
+DS -21.5 5.8 -21.5 8.3 0.25 21
+DS -21.5 8.3 -7.4 8.3 0.25 21
+DS -7.4 8.3 20.2 8.3 0.25 21
+DS 20.2 8.3 22.3 8.3 0.25 21
+DS 22.3 8.3 22.3 5.8 0.25 21
+DS 22.3 5.8 23.2 5.8 0.25 21
+DS 23.2 5.8 23.2 0 0.25 21
+DS 23.2 0 -22.2 0 0.25 21
+$PAD
+Sh "19" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 2.02 0
+$EndPAD
+$PAD
+Sh "20" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 1.01 0
+$EndPAD
+$PAD
+Sh "18" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 3.03 0
+$EndPAD
+$PAD
+Sh "17" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 4.04 0
+$EndPAD
+$PAD
+Sh "13" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 8.08 0
+$EndPAD
+$PAD
+Sh "14" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 7.07 0
+$EndPAD
+$PAD
+Sh "16" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 5.05 0
+$EndPAD
+$PAD
+Sh "15" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 6.06 0
+$EndPAD
+$PAD
+Sh "7" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 14.14 0
+$EndPAD
+$PAD
+Sh "8" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 13.13 0
+$EndPAD
+$PAD
+Sh "6" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 15.15 0
+$EndPAD
+$PAD
+Sh "5" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 16.16 0
+$EndPAD
+$PAD
+Sh "9" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 12.12 0
+$EndPAD
+$PAD
+Sh "10" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 11.11 0
+$EndPAD
+$PAD
+Sh "12" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 9.09 0
+$EndPAD
+$PAD
+Sh "11" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 10.1 0
+$EndPAD
+$PAD
+Sh "1" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 20.2 0
+$EndPAD
+$PAD
+Sh "2" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 19.19 0
+$EndPAD
+$PAD
+Sh "4" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 17.17 0
+$EndPAD
+$PAD
+Sh "3" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 18.18 0
+$EndPAD
+$PAD
+Sh "23" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -2.02 0
+$EndPAD
+$PAD
+Sh "24" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -3.03 0
+$EndPAD
+$PAD
+Sh "22" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -1.01 0
+$EndPAD
+$PAD
+Sh "21" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "31" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -10.1 0
+$EndPAD
+$PAD
+Sh "32" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -11.11 0
+$EndPAD
+$PAD
+Sh "30" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -9.09 0
+$EndPAD
+$PAD
+Sh "29" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -8.08 0
+$EndPAD
+$PAD
+Sh "25" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -4.04 0
+$EndPAD
+$PAD
+Sh "26" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -5.05 0
+$EndPAD
+$PAD
+Sh "28" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -7.07 0
+$EndPAD
+$PAD
+Sh "27" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -6.06 0
+$EndPAD
+$PAD
+Sh "35" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -14.14 0
+$EndPAD
+$PAD
+Sh "36" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -15.15 0
+$EndPAD
+$PAD
+Sh "34" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -13.13 0
+$EndPAD
+$PAD
+Sh "33" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -12.12 0
+$EndPAD
+$PAD
+Sh "37" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -16.16 0
+$EndPAD
+$PAD
+Sh "38" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -17.17 0
+$EndPAD
+$PAD
+Sh "40" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -19.19 0
+$EndPAD
+$PAD
+Sh "39" R 0.7 3 0 0 0
+Dr 0 0 0
+At CONN N 00808000
+Ne 0 ""
+Po -18.18 0
+$EndPAD
+$EndMODULE FPC_40Pin_1.0mm_NoHead_Rev
 $MODULE QFN-16-1EP_3x3mm_Pitch0.5mm
 Po 0 0 0 15 54130A77 00000000 ~~
 Li QFN-16-1EP_3x3mm_Pitch0.5mm
