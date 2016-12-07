@@ -1,5 +1,5 @@
-update=Mon 05 Dec 2016 01:46:52 PM CST
-last_client=eeschema
+update=Wed 07 Dec 2016 08:59:03 AM CST
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -41,11 +41,6 @@ LibName17=Downloads/gh_kicad/mylib/myft
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=device
