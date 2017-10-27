@@ -1,4 +1,9 @@
-EESchema-DOCLIB  Version 2.0  Date: Thu 24 Aug 2017 05:44:23 PM CST
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CM3354
+D CM3354
+K CM3354
+$ENDCMP
 #
 $CMP MT7688-LinkIt
 D MT7688-LinkIt
