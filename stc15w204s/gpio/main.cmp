@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sat 27 Feb 2016 04:47:14 PM CST
+
+BeginCmp
+TimeStamp = /56D15359;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D1562E;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D1563D;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D1525A;
+Reference = P1;
+ValeurCmp = CONN_5;
+IdModule  = SIL-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D155BA;
+Reference = R1;
+ValeurCmp = 1K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D155AB;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D1567A;
+Reference = R3;
+ValeurCmp = 1K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D15689;
+Reference = R4;
+ValeurCmp = 1K;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D1569C;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D156AB;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /56D14F30;
+Reference = U1;
+ValeurCmp = STC15W204;
+IdModule  = SO8E;
+EndCmp
+
+EndListe
