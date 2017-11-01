@@ -1,0 +1,163 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:mysch
+LIBS:main-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 12170 10930 0    79   ~ 16
+handmade01
+Text Notes 12960 11070 0    60   ~ 0
+20171101
+Text Notes 15420 11060 0    60   ~ 0
+1.0
+$Comp
+L CM3354 U?
+U 1 1 59F99339
+P 4375 6875
+F 0 "U?" H 4225 7125 60  0000 C CNN
+F 1 "CM3354" H 4225 7025 60  0000 C CNN
+F 2 "" H 3125 8325 60  0000 C CNN
+F 3 "" H 3125 8325 60  0000 C CNN
+	1    4375 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59F993BC
+P 5325 9075
+F 0 "#PWR?" H 5325 8825 50  0001 C CNN
+F 1 "GND" H 5325 8925 50  0000 C CNN
+F 2 "" H 5325 9075 50  0000 C CNN
+F 3 "" H 5325 9075 50  0000 C CNN
+	1    5325 9075
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59F994B6
+P 4125 4375
+F 0 "#PWR?" H 4125 4125 50  0001 C CNN
+F 1 "GND" H 4125 4225 50  0000 C CNN
+F 2 "" H 4125 4375 50  0000 C CNN
+F 3 "" H 4125 4375 50  0000 C CNN
+	1    4125 4375
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59F994CD
+P 3625 4375
+F 0 "#PWR?" H 3625 4125 50  0001 C CNN
+F 1 "GND" H 3625 4225 50  0000 C CNN
+F 2 "" H 3625 4375 50  0000 C CNN
+F 3 "" H 3625 4375 50  0000 C CNN
+	1    3625 4375
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59F9955D
+P 2025 5775
+F 0 "#PWR?" H 2025 5525 50  0001 C CNN
+F 1 "GND" H 2025 5625 50  0000 C CNN
+F 2 "" H 2025 5775 50  0000 C CNN
+F 3 "" H 2025 5775 50  0000 C CNN
+	1    2025 5775
+	0    1    1    0   
+$EndComp
+$Comp
+L USB_OTG P?
+U 1 1 59F99696
+P 2100 9850
+F 0 "P?" H 2425 9725 50  0000 C CNN
+F 1 "USB_OTG" H 2100 10050 50  0000 C CNN
+F 2 "" V 2050 9750 50  0000 C CNN
+F 3 "" V 2050 9750 50  0000 C CNN
+	1    2100 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59F99737
+P 1900 10150
+F 0 "#PWR?" H 1900 10000 50  0001 C CNN
+F 1 "+5V" H 1900 10290 50  0000 C CNN
+F 2 "" H 1900 10150 50  0000 C CNN
+F 3 "" H 1900 10150 50  0000 C CNN
+	1    1900 10150
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 59F997C9
+P 2300 10150
+F 0 "#PWR?" H 2300 9900 50  0001 C CNN
+F 1 "GND" H 2300 10000 50  0000 C CNN
+F 2 "" H 2300 10150 50  0000 C CNN
+F 3 "" H 2300 10150 50  0000 C CNN
+	1    2300 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 59F997F5
+P 3225 9075
+F 0 "#PWR?" H 3225 8925 50  0001 C CNN
+F 1 "+5V" H 3225 9215 50  0000 C CNN
+F 2 "" H 3225 9075 50  0000 C CNN
+F 3 "" H 3225 9075 50  0000 C CNN
+	1    3225 9075
+	-1   0    0    1   
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 59F9981F
+P 3625 9075
+F 0 "#PWR?" H 3625 8925 50  0001 C CNN
+F 1 "+3.3V" H 3625 9215 50  0000 C CNN
+F 2 "" H 3625 9075 50  0000 C CNN
+F 3 "" H 3625 9075 50  0000 C CNN
+	1    3625 9075
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

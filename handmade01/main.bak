@@ -1,0 +1,63 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:mysch
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 12170 10930 0    79   ~ 16
+handmade01
+Text Notes 12960 11070 0    60   ~ 0
+20171101
+$Comp
+L CM3354 U?
+U 1 1 59F9902A
+P 4290 7560
+F 0 "U?" H 4140 7810 60  0000 C CNN
+F 1 "CM3354" H 4140 7710 60  0000 C CNN
+F 2 "" H 3040 9010 60  0000 C CNN
+F 3 "" H 3040 9010 60  0000 C CNN
+	1    4290 7560
+	1    0    0    -1  
+$EndComp
+Text Notes 15420 11060 0    60   ~ 0
+1.0
+$EndSCHEMATC
