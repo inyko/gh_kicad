@@ -1,0 +1,178 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Thu 01 Dec 2016 09:17:46 PM CST
+
+BeginCmp
+TimeStamp = /570BD84B;
+Reference = C1;
+ValeurCmp = 1uF/10V;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /570BD88E;
+Reference = C2;
+ValeurCmp = 1uF/10V;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /570BD89D;
+Reference = C3;
+ValeurCmp = 1uF/10V;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /570BD93C;
+Reference = C4;
+ValeurCmp = 1uF/10V;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /570BD970;
+Reference = C5;
+ValeurCmp = 1uF/10V;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /570BD9AC;
+Reference = C6;
+ValeurCmp = 1uF/10V;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /570BDACD;
+Reference = C7;
+ValeurCmp = 1uF/16V;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /570BDADC;
+Reference = C8;
+ValeurCmp = 1uF/16V;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /570BDC55;
+Reference = C9;
+ValeurCmp = 1uF/10V;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /570BDCE1;
+Reference = C10;
+ValeurCmp = 1uF/10V;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /570BDD44;
+Reference = C11;
+ValeurCmp = 1uF/10V;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /570BDD78;
+Reference = C12;
+ValeurCmp = 1uF/10V;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /570BDD87;
+Reference = C13;
+ValeurCmp = 1uF/10V;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /583F9C43;
+Reference = C14;
+ValeurCmp = 100pF;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /583F9DE7;
+Reference = C15;
+ValeurCmp = 100pF;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /583F9CB6;
+Reference = C16;
+ValeurCmp = 100pF;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /583F9BEF;
+Reference = C17;
+ValeurCmp = 1nF;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /583F9CBB;
+Reference = C18;
+ValeurCmp = 100pF;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /583F9878;
+Reference = R1;
+ValeurCmp = 100K;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /583F9D49;
+Reference = R2;
+ValeurCmp = 100K;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /583F9D4C;
+Reference = R3;
+ValeurCmp = 98K;
+IdModule  = C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /570BDFA9;
+Reference = U1;
+ValeurCmp = TFT_37PIN;
+IdModule  = FPC_40Pin_1.0mm_NoHead_Rev;
+EndCmp
+
+BeginCmp
+TimeStamp = /570BCFAD;
+Reference = U2;
+ValeurCmp = C0283QGLD-T;
+IdModule  = FH23_61S_0.3SHW;
+EndCmp
+
+BeginCmp
+TimeStamp = /583F975D;
+Reference = U3;
+ValeurCmp = MCP1727;
+IdModule  = SO8N;
+EndCmp
+
+BeginCmp
+TimeStamp = /583F9752;
+Reference = U4;
+ValeurCmp = MAX889;
+IdModule  = SO8N;
+EndCmp
+
+EndListe
