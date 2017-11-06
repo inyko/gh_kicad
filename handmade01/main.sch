@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:main-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -129,7 +130,7 @@ F 3 "" H 6950 8650 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L USB_OTG P4
+L USB_OTG-RESCUE-main P4
 U 1 1 59FFDB87
 P 6400 9800
 F 0 "P4" H 6725 9675 50  0000 C CNN
