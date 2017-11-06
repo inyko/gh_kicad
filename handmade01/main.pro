@@ -1,4 +1,4 @@
-update=Wed 01 Nov 2017 05:11:28 PM CST
+update=Mon 06 Nov 2017 04:51:00 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,15 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=/home/steward/Downloads/gh_kicad/mylib/mysch
+LibName30=switches
+LibName31=/home/steward/Github/gh_kicad/mylib/mysch
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
