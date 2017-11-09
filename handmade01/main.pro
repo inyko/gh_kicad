@@ -1,4 +1,4 @@
-update=2017/11/6 下午 10:29:01
+update=2017/11/8 星期三 上午 08:14:49
 version=1
 last_client=kicad
 [pcbnew]
@@ -70,4 +70,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=switches
-LibName32=C:/Users/steward/Github/gh_kicad/mylib/mysch
+LibName32=C:/cygwin64/home/Administrator/Github/gh_kicad/mylib/mysch
