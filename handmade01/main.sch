@@ -106,7 +106,7 @@ $EndComp
 Text Notes 12250 10950 0    98   ~ 20
 handmade01
 Text Notes 13000 11050 0    60   ~ 12
-20171112
+20171115
 $Comp
 L +5V #PWR05
 U 1 1 59FFCB1F
@@ -1569,12 +1569,12 @@ $EndComp
 $Comp
 L +3.3V #PWR065
 U 1 1 5A00EA61
-P 2900 7850
-F 0 "#PWR065" H 2900 7700 50  0001 C CNN
-F 1 "+3.3V" H 2900 7990 50  0000 C CNN
-F 2 "" H 2900 7850 50  0000 C CNN
-F 3 "" H 2900 7850 50  0000 C CNN
-	1    2900 7850
+P 2900 7750
+F 0 "#PWR065" H 2900 7600 50  0001 C CNN
+F 1 "+3.3V" H 2900 7890 50  0000 C CNN
+F 2 "" H 2900 7750 50  0000 C CNN
+F 3 "" H 2900 7750 50  0000 C CNN
+	1    2900 7750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1625,9 +1625,6 @@ Wire Wire Line
 Connection ~ 1000 5400
 Wire Wire Line
 	1000 5400 800  5400
-Wire Wire Line
-	2900 7750 2900 7850
-Connection ~ 2900 7850
 Wire Wire Line
 	2900 7950 3350 7950
 $Comp
@@ -1834,4 +1831,6 @@ MUTE
 Connection ~ 2850 9800
 NoConn ~ 2200 10000
 NoConn ~ 1450 6650
+Text GLabel 2900 7850 2    60   Input ~ 0
+MUTE
 $EndSCHEMATC
