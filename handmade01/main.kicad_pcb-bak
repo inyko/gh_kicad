@@ -3,7 +3,7 @@
   (general
     (links 178)
     (no_connects 178)
-    (area 0 0 0 0)
+    (area 69.384999 50.08916 209.615001 142.535)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -1594,7 +1594,7 @@
   )
 
   (module mylib:dpad-v (layer F.Cu) (tedit 5A13EAD5) (tstamp 5A16D053)
-    (at 127 67.31)
+    (at 125.73 69.85)
     (path /5A00E319)
     (fp_text reference SW4 (at 0.07874 -6.08584) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
