@@ -3231,7 +3231,7 @@
   (gr_line (start 181.61 137.16) (end 116.84 137.16) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 181.61 67.31) (end 181.61 137.16) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 116.84 67.31) (end 181.61 67.31) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text 20171129 (at 213.36 193.04) (layer F.Cu)
+  (gr_text 20171130 (at 213.36 193.04) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text Handmade01 (at 196.85 189.23) (layer F.Cu)
