@@ -717,13 +717,13 @@ Text GLabel 7900 1400 1    61   Input ~ 0
 BK3
 Text GLabel 8250 1400 1    61   Input ~ 0
 BK4
-Text GLabel 4500 3750 0    60   Input ~ 0
+Text GLabel 4500 2950 0    60   Input ~ 0
 UP
-Text GLabel 4500 3850 0    60   Input ~ 0
-DOWN
 Text GLabel 4500 3950 0    60   Input ~ 0
+DOWN
+Text GLabel 6200 2300 1    60   Input ~ 0
 LEFT
-Text GLabel 5100 4500 3    60   Input ~ 0
+Text GLabel 4500 3750 0    60   Input ~ 0
 RIGHT
 Text GLabel 5200 4500 3    60   Input ~ 0
 A
@@ -733,38 +733,35 @@ Text GLabel 5400 4500 3    60   Input ~ 0
 X
 Text GLabel 5500 4500 3    60   Input ~ 0
 Y
-Text GLabel 5600 4500 3    60   Input ~ 0
+Text GLabel 6000 2300 1    60   Input ~ 0
 L
 Text GLabel 5700 4500 3    60   Input ~ 0
 R
-Text GLabel 5800 4500 3    60   Input ~ 0
-START
-Text GLabel 5900 4500 3    60   Input ~ 0
-SELECT
 Text GLabel 6000 4500 3    60   Input ~ 0
+START
+Text GLabel 4500 3850 0    60   Input ~ 0
+SELECT
+Text GLabel 5900 2300 1    60   Input ~ 0
 BK1
-Text GLabel 6800 3950 2    60   Input ~ 0
+Text GLabel 6800 3050 2    60   Input ~ 0
 BK2
-Text GLabel 6800 3850 2    60   Input ~ 0
+Text GLabel 5800 2300 1    60   Input ~ 0
 BK3
-Text GLabel 6800 3750 2    60   Input ~ 0
+Text GLabel 6100 2300 1    60   Input ~ 0
 BK4
 NoConn ~ 6800 3650
 NoConn ~ 6800 3550
 NoConn ~ 6800 3450
 NoConn ~ 6800 3350
-NoConn ~ 6800 3050
-NoConn ~ 6200 2300
-NoConn ~ 6100 2300
-NoConn ~ 6000 2300
-NoConn ~ 5900 2300
-NoConn ~ 5800 2300
+NoConn ~ 6800 3750
+NoConn ~ 6800 3850
+NoConn ~ 5800 4500
+NoConn ~ 6800 3950
 NoConn ~ 5700 2300
 NoConn ~ 5600 2300
 NoConn ~ 5400 2300
 NoConn ~ 5300 2300
 NoConn ~ 4500 2850
-NoConn ~ 4500 2950
 NoConn ~ 4500 3050
 NoConn ~ 4500 3150
 $Comp
@@ -814,4 +811,7 @@ $EndComp
 Text GLabel 5050 5500 2    60   Input ~ 0
 RST
 Connection ~ 5050 5500
+NoConn ~ 5100 4500
+NoConn ~ 5900 4500
+NoConn ~ 5600 4500
 $EndSCHEMATC
