@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Thu 07 Dec 2017 04:16:29 AM EST
+PCBNEW-LibModule-V1  Thu 07 Dec 2017 09:25:43 PM CST
 # encoding utf-8
 Units mm
 $INDEX
@@ -25,8 +25,11 @@ MyFT_R_0603
 MyFT_R_0805
 MyFT_R_1206
 MyFT_SC-70-5
+MyFT_SOP-16_4.4x10.4mm_Pitch1.27mm
 MyFT_SOT-223
 MyFT_SW_PUSH_6mm
+MyFT_SW_SPST_TL3342
+MyFT_TSSOP-20_4.4x6.5mm_Pitch0.65mm
 MyFT_Volumn
 $EndINDEX
 $MODULE MyFT_CM3354
@@ -4189,6 +4192,150 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE MyFT_SC-70-5
+$MODULE MyFT_SOP-16_4.4x10.4mm_Pitch1.27mm
+Po 0 0 0 15 589F0C2D 00000000 ~~
+Li MyFT_SOP-16_4.4x10.4mm_Pitch1.27mm
+Cd 16-Lead Plastic Small Outline http://www.vishay.com/docs/49633/sg2098.pdf
+Kw SOP 1.27
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0 -6.2 1 1 0 0.15 N V 21 N "REF**"
+T1 0 6.1 1 1 0 0.15 N V 21 N "SOP-16_4.4x10.4mm_Pitch1.27mm"
+T2 0 0 0.8 0.8 0 0.15 N V 21 N "%R"
+DS -2.2 -4.6 -1.6 -5.2 0.1 21
+DS -2.4 -5.4 -2.4 -5 0.12 21
+DS -2.4 -5 -3.8 -5 0.12 21
+DS -1.6 -5.2 2.2 -5.2 0.1 21
+DS 2.2 -5.2 2.2 5.2 0.1 21
+DS 2.2 5.2 -2.2 5.2 0.1 21
+DS -2.2 5.2 -2.2 -4.6 0.1 21
+DS -2.4 -5.4 2.4 -5.4 0.12 21
+DS -2.4 5.4 2.4 5.4 0.12 21
+DS -4.05 -5.45 4.05 -5.45 0.05 21
+DS -4.05 -5.45 -4.05 5.45 0.05 21
+DS 4.05 5.45 4.05 -5.45 0.05 21
+DS 4.05 5.45 -4.05 5.45 0.05 21
+$PAD
+Sh "1" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.15 -4.45
+$EndPAD
+$PAD
+Sh "2" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.15 -3.17
+$EndPAD
+$PAD
+Sh "3" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.15 -1.91
+$EndPAD
+$PAD
+Sh "4" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.15 -0.64
+$EndPAD
+$PAD
+Sh "5" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.15 0.64
+$EndPAD
+$PAD
+Sh "6" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.15 1.91
+$EndPAD
+$PAD
+Sh "7" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.15 3.17
+$EndPAD
+$PAD
+Sh "8" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.15 4.45
+$EndPAD
+$PAD
+Sh "9" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.15 4.45
+$EndPAD
+$PAD
+Sh "10" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.15 3.17
+$EndPAD
+$PAD
+Sh "11" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.15 1.91
+$EndPAD
+$PAD
+Sh "12" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.15 0.64
+$EndPAD
+$PAD
+Sh "13" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.15 -0.64
+$EndPAD
+$PAD
+Sh "14" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.15 -1.91
+$EndPAD
+$PAD
+Sh "15" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.15 -3.17
+$EndPAD
+$PAD
+Sh "16" R 1.3 0.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.15 -4.45
+$EndPAD
+$SHAPE3D
+Na "${KISYS3DMOD}/Housings_SSOP.3dshapes/SOP-16_4.4x10.4mm_Pitch1.27mm.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE MyFT_SOP-16_4.4x10.4mm_Pitch1.27mm
 $MODULE MyFT_SOT-223
 Po 0 0 0 15 583F3B4E 00000000 ~~
 Li MyFT_SOT-223
@@ -4314,6 +4461,260 @@ Of 0.005 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE MyFT_SW_PUSH_6mm
+$MODULE MyFT_SW_SPST_TL3342
+Po 0 0 0 15 56EAAF8C 00000000 ~~
+Li MyFT_SW_SPST_TL3342
+Cd Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
+Kw SPST Tactile Switch
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0 -3.75 1 1 0 0.15 N V 21 N "REF**"
+T1 0 3.75 1 1 0 0.15 N V 21 N "SW_SPST_TL3342"
+DS 3.2 2.1 3.2 1.6 0.15 21
+DS 3.2 -2.1 3.2 -1.6 0.15 21
+DS -3.2 2.1 -3.2 1.6 0.15 21
+DS -3.2 -2.1 -3.2 -1.6 0.15 21
+DS 2.7 -2.1 2.7 -1.6 0.15 21
+DS 1.7 -2.1 3.2 -2.1 0.15 21
+DS 3.2 -1.6 2.2 -1.6 0.15 21
+DS -2.7 -2.1 -2.7 -1.6 0.15 21
+DS -1.7 -2.1 -3.2 -2.1 0.15 21
+DS -3.2 -1.6 -2.2 -1.6 0.15 21
+DS -2.7 2.1 -2.7 1.6 0.15 21
+DS -3.2 1.6 -2.2 1.6 0.15 21
+DS -1.7 2.1 -3.2 2.1 0.15 21
+DS 1.7 2.1 3.2 2.1 0.15 21
+DS 2.7 2.1 2.7 1.6 0.15 21
+DS 3.2 1.6 2.2 1.6 0.15 21
+DS -1.7 2.3 -1.25 2.75 0.15 21
+DS 1.7 2.3 1.25 2.75 0.15 21
+DS 1.7 -2.3 1.25 -2.75 0.15 21
+DS -1.7 -2.3 -1.25 -2.75 0.15 21
+DS -2 -1 -1 -2 0.15 21
+DS -1 -2 1 -2 0.15 21
+DS 1 -2 2 -1 0.15 21
+DS 2 -1 2 1 0.15 21
+DS 2 1 1 2 0.15 21
+DS 1 2 -1 2 0.15 21
+DS -1 2 -2 1 0.15 21
+DS -2 1 -2 -1 0.15 21
+DS 2.75 -1 2.75 1 0.15 21
+DS -1.25 2.75 1.25 2.75 0.15 21
+DS -2.75 -1 -2.75 1 0.15 21
+DS -1.25 -2.75 1.25 -2.75 0.15 21
+DC 0 0 1 0 0.15 21
+DS -2.6 -1.2 -2.6 1.2 0.15 21
+DS -2.6 1.2 -1.2 2.6 0.15 21
+DS -1.2 2.6 1.2 2.6 0.15 21
+DS 1.2 2.6 2.6 1.2 0.15 21
+DS 2.6 1.2 2.6 -1.2 0.15 21
+DS 2.6 -1.2 1.2 -2.6 0.15 21
+DS 1.2 -2.6 -1.2 -2.6 0.15 21
+DS -1.2 -2.6 -2.6 -1.2 0.15 21
+DS -4.25 -3 4.25 -3 0.05 21
+DS 4.25 -3 4.25 3 0.05 21
+DS 4.25 3 -4.25 3 0.05 21
+DS -4.25 3 -4.25 -3 0.05 21
+$PAD
+Sh "1" R 1.7 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.15 -1.9
+$EndPAD
+$PAD
+Sh "1" R 1.7 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.15 -1.9
+$EndPAD
+$PAD
+Sh "2" R 1.7 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.15 1.9
+$EndPAD
+$PAD
+Sh "2" R 1.7 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.15 1.9
+$EndPAD
+$EndMODULE MyFT_SW_SPST_TL3342
+$MODULE MyFT_TSSOP-20_4.4x6.5mm_Pitch0.65mm
+Po 0 0 0 15 54130A77 00000000 ~~
+Li MyFT_TSSOP-20_4.4x6.5mm_Pitch0.65mm
+Cd 20-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+Kw SSOP 0.65
+Sc 0
+AR 
+Op 0 0 0
+At SMD
+T0 0 -4.3 1 1 0 0.15 N V 21 N "REF**"
+T1 0 4.3 1 1 0 0.15 N V 21 N "TSSOP-20_4.4x6.5mm_Pitch0.65mm"
+DS -1.2 -3.25 2.2 -3.25 0.15 21
+DS 2.2 -3.25 2.2 3.25 0.15 21
+DS 2.2 3.25 -2.2 3.25 0.15 21
+DS -2.2 3.25 -2.2 -2.25 0.15 21
+DS -2.2 -2.25 -1.2 -3.25 0.15 21
+DS -3.95 -3.55 -3.95 3.55 0.05 21
+DS 3.95 -3.55 3.95 3.55 0.05 21
+DS -3.95 -3.55 3.95 -3.55 0.05 21
+DS -3.95 3.55 3.95 3.55 0.05 21
+DS -2.225 3.45 2.225 3.45 0.15 21
+DS -3.75 -3.45 2.225 -3.45 0.15 21
+$PAD
+Sh "1" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 -2.925
+$EndPAD
+$PAD
+Sh "2" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 -2.275
+$EndPAD
+$PAD
+Sh "3" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 -1.625
+$EndPAD
+$PAD
+Sh "4" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 -0.975
+$EndPAD
+$PAD
+Sh "5" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 -0.325
+$EndPAD
+$PAD
+Sh "6" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 0.325
+$EndPAD
+$PAD
+Sh "7" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 0.975
+$EndPAD
+$PAD
+Sh "8" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 1.625
+$EndPAD
+$PAD
+Sh "9" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 2.275
+$EndPAD
+$PAD
+Sh "10" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.95 2.925
+$EndPAD
+$PAD
+Sh "11" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 2.925
+$EndPAD
+$PAD
+Sh "12" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 2.275
+$EndPAD
+$PAD
+Sh "13" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 1.625
+$EndPAD
+$PAD
+Sh "14" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 0.975
+$EndPAD
+$PAD
+Sh "15" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 0.325
+$EndPAD
+$PAD
+Sh "16" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 -0.325
+$EndPAD
+$PAD
+Sh "17" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 -0.975
+$EndPAD
+$PAD
+Sh "18" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 -1.625
+$EndPAD
+$PAD
+Sh "19" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 -2.275
+$EndPAD
+$PAD
+Sh "20" R 1.45 0.45 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.95 -2.925
+$EndPAD
+$SHAPE3D
+Na "Housings_SSOP.3dshapes/TSSOP-20_4.4x6.5mm_Pitch0.65mm.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE MyFT_TSSOP-20_4.4x6.5mm_Pitch0.65mm
 $MODULE MyFT_Volumn
 Po 0 0 0 15 5A28F537 00000000 ~~
 Li MyFT_Volumn
