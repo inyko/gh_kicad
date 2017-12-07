@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:main-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -11,6 +10,7 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
+LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -29,16 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:switches
-LIBS:mysch
 LIBS:main-cache
-EELAYER 25 0
+EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
-Date ""
+Date "7 dec 2017"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,8 +44,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 15420 11060 0    60   ~ 12
-1.0
 $Comp
 L CM3354 U4
 U 1 1 59FFC8E0
@@ -103,10 +99,6 @@ F 3 "" H 7450 3950 50  0000 C CNN
 	1    7450 3950
 	-1   0    0    1   
 $EndComp
-Text Notes 12250 10950 0    98   ~ 20
-handmade01
-Text Notes 13000 11050 0    60   ~ 12
-20171201
 $Comp
 L +5V #PWR05
 U 1 1 59FFCB1F
@@ -2091,4 +2083,6 @@ F 3 "" H 15050 9400 50  0001 C CNN
 	1    15050 9200
 	0    1    1    0   
 $EndComp
+Text Notes 12175 10975 0    60   ~ 12
+Handmade01
 $EndSCHEMATC
