@@ -36,7 +36,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "7 dec 2017"
+Date "8 dec 2017"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1820,7 +1820,7 @@ L SW_Push SW1
 U 1 1 5A1FE007
 P 11800 9100
 F 0 "SW1" H 11850 9200 50  0000 L CNN
-F 1 "POWER" H 11800 9040 50  0000 C CNN
+F 1 "Power" H 11800 9040 50  0000 C CNN
 F 2 "" H 11800 9300 50  0001 C CNN
 F 3 "" H 11800 9300 50  0001 C CNN
 	1    11800 9100

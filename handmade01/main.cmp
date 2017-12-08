@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Thu 07 Dec 2017 09:27:56 PM CST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Fri 08 Dec 2017 05:47:04 PM CST
 
 BeginCmp
 TimeStamp = /5A040967;
@@ -151,7 +151,7 @@ BeginCmp
 TimeStamp = /5A0048DA;
 Reference = Q1;
 ValeurCmp = 1AM;
-IdModule  = MyFT_SOT-223;
+IdModule  = MyFT_SOT-23_Handsoldering;
 EndCmp
 
 BeginCmp
@@ -353,15 +353,15 @@ EndCmp
 BeginCmp
 TimeStamp = /5A1FE007;
 Reference = SW1;
-ValeurCmp = POWER;
-IdModule  = MyFT_SW_PUSH_6mm;
+ValeurCmp = Power;
+IdModule  = MyFT_TS-026-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A20183B;
 Reference = SW2;
 ValeurCmp = Reset;
-IdModule  = MyFT_SW_PUSH_6mm;
+IdModule  = MyFT_TS-026-3;
 EndCmp
 
 BeginCmp
@@ -410,14 +410,14 @@ BeginCmp
 TimeStamp = /5A20321F;
 Reference = SW9;
 ValeurCmp = L;
-IdModule  = MyFT_SW_PUSH_6mm;
+IdModule  = MyFT_TS-026-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2037A6;
 Reference = SW10;
 ValeurCmp = R;
-IdModule  = MyFT_SW_PUSH_6mm;
+IdModule  = MyFT_TS-026-3;
 EndCmp
 
 BeginCmp
