@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Fri 08 Dec 2017 05:47:04 PM CST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Fri 08 Dec 2017 06:28:07 PM CST
 
 BeginCmp
 TimeStamp = /5A040967;
@@ -137,7 +137,7 @@ BeginCmp
 TimeStamp = /59FFDB87;
 Reference = P4;
 ValeurCmp = USB_OTG;
-IdModule  = MyFT_MiniUSB_B;
+IdModule  = MyFT_USB_Micro-B;
 EndCmp
 
 BeginCmp
