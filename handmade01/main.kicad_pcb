@@ -3,7 +3,7 @@
   (general
     (links 236)
     (no_connects 236)
-    (area 190.441223 92.000556 290.808833 180.275)
+    (area 100.271223 64.195 200.638833 147.763)
     (thickness 1.6)
     (drawings 14)
     (tracks 0)
@@ -12,7 +12,7 @@
     (nets 88)
   )
 
-  (page A3)
+  (page A4)
   (layers
     (15 F.Cu signal)
     (0 B.Cu signal)
@@ -273,7 +273,7 @@
   )
 
   (module MyFT_Volumn (layer F.Cu) (tedit 5A28F537) (tstamp 5A2941F7)
-    (at 232.918 163.83)
+    (at 142.748 131.318)
     (descr Volumn)
     (path /5A00C0EF)
     (fp_text reference P1 (at 0.017506 -4.5) (layer F.SilkS)
@@ -313,7 +313,7 @@
   )
 
   (module MyFT_TSSOP-20_4.4x6.5mm_Pitch0.65mm (layer F.Cu) (tedit 54130A77) (tstamp 5A2A5AB6)
-    (at 206.502 131.572)
+    (at 116.332 99.06)
     (descr "20-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SSOP 0.65")
     (path /5A001EC8)
@@ -423,7 +423,7 @@
   )
 
   (module MyFT_SW_SPST_TL3342 (layer B.Cu) (tedit 56EAAF8C) (tstamp 5A29424F)
-    (at 228.6 166.37)
+    (at 138.43 133.858)
     (descr "Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf")
     (tags "SPST Tactile Switch")
     (path /5A202D3D)
@@ -498,7 +498,7 @@
   )
 
   (module MyFT_SW_SPST_TL3342 (layer B.Cu) (tedit 56EAAF8C) (tstamp 5A294284)
-    (at 237.49 166.37)
+    (at 147.32 133.858)
     (descr "Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf")
     (tags "SPST Tactile Switch")
     (path /5A202F43)
@@ -573,7 +573,7 @@
   )
 
   (module MyFT_SOP-16_4.4x10.4mm_Pitch1.27mm (layer F.Cu) (tedit 589F0C2D) (tstamp 5A2A5A67)
-    (at 206.756 118.364)
+    (at 116.586 85.852)
     (descr "16-Lead Plastic Small Outline http://www.vishay.com/docs/49633/sg2098.pdf")
     (tags "SOP 1.27")
     (path /5A00B604)
@@ -672,7 +672,7 @@
   )
 
   (module MyFT_SC-70-5 (layer F.Cu) (tedit 0) (tstamp 5A2A5A92)
-    (at 242.062 112.014 270)
+    (at 151.892 79.502 270)
     (descr "SC70-5 SOT323-5")
     (path /59FFE126)
     (attr smd)
@@ -719,7 +719,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294351)
-    (at 272.796 119.634)
+    (at 182.626 87.122)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1E734A)
@@ -752,7 +752,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A29435D)
-    (at 237.236 173.99)
+    (at 147.066 141.478)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1E70DA)
@@ -785,7 +785,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294369)
-    (at 252.73 177.292)
+    (at 162.56 144.78)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1EAFB6)
@@ -818,7 +818,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294375)
-    (at 242.57 172.466)
+    (at 152.4 139.954)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1E70D4)
@@ -851,7 +851,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294381)
-    (at 246.38 176.276)
+    (at 156.21 143.764)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1E7350)
@@ -884,7 +884,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A29438D)
-    (at 284.48 153.416)
+    (at 194.31 120.904)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1E7356)
@@ -917,7 +917,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294399)
-    (at 275.59 165.608)
+    (at 185.42 133.096)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1E6FFA)
@@ -950,7 +950,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A2943A5)
-    (at 270.256 151.892)
+    (at 180.086 119.38)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1E6FF4)
@@ -983,7 +983,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A2943B1)
-    (at 270.51 132.588)
+    (at 180.34 100.076)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1E6F30)
@@ -1016,7 +1016,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A2943BD)
-    (at 273.812 170.434)
+    (at 183.642 137.922)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1E735C)
@@ -1049,7 +1049,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A2943C9)
-    (at 197.358 169.418)
+    (at 107.188 136.906)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1E7362)
@@ -1082,7 +1082,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A2943D5)
-    (at 266.446 177.546)
+    (at 176.276 145.034)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1E7368)
@@ -1115,7 +1115,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A2943E1)
-    (at 275.844 121.666)
+    (at 185.674 89.154)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1EAFEC)
@@ -1148,7 +1148,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A2943ED)
-    (at 270.002 161.798)
+    (at 179.832 129.286)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1EAFBC)
@@ -1181,7 +1181,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A2943F9)
-    (at 264.922 172.466)
+    (at 174.752 139.954)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1EAFC2)
@@ -1214,7 +1214,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294405)
-    (at 280.416 163.576)
+    (at 190.246 131.064)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1EAFC8)
@@ -1247,7 +1247,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294411)
-    (at 193.548 159.258)
+    (at 103.378 126.746)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1EAFCE)
@@ -1280,7 +1280,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A29441D)
-    (at 272.288 175.768)
+    (at 182.118 143.256)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1EAFD4)
@@ -1313,7 +1313,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294429)
-    (at 260.35 175.514)
+    (at 170.18 143.002)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1EAFDA)
@@ -1346,7 +1346,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294435)
-    (at 231.14 175.006)
+    (at 140.97 142.494)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1EAFE0)
@@ -1379,7 +1379,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294441)
-    (at 248.158 172.212)
+    (at 157.988 139.7)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1EAFE6)
@@ -1412,7 +1412,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A29444D)
-    (at 271.272 156.718)
+    (at 181.102 124.206)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A08601E)
@@ -1445,7 +1445,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294459)
-    (at 269.494 146.812)
+    (at 179.324 114.3)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1E663E)
@@ -1478,7 +1478,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294465)
-    (at 276.098 159.004)
+    (at 185.928 126.492)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A004A05)
@@ -1511,7 +1511,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294471)
-    (at 275.082 126.492)
+    (at 184.912 93.98)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A0049EF)
@@ -1544,7 +1544,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A29447D)
-    (at 269.24 167.64)
+    (at 179.07 135.128)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1EAFF2)
@@ -1577,7 +1577,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294489)
-    (at 198.12 154.94)
+    (at 107.95 122.428)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A1EAFF8)
@@ -1610,7 +1610,7 @@
   )
 
   (module MyFT_R_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294495)
-    (at 277.114 174.244)
+    (at 186.944 141.732)
     (descr "C 0603 Hand Soldering")
     (tags 0603)
     (path /5A004A8E)
@@ -1643,7 +1643,7 @@
   )
 
   (module MyFT_PJ311_3.5mm (layer F.Cu) (tedit 5A1FEAB6) (tstamp 5A2944BB)
-    (at 225.552 107.696)
+    (at 135.382 75.184)
     (descr "PJ311 6pin SMD 3.5mm stereo headphones jack.")
     (tags "headphones jack plug stereo 3.5mm PJ311")
     (path /5A07D9F4)
@@ -1714,7 +1714,7 @@
   )
 
   (module MyFT_MiniUSB_B (layer F.Cu) (tedit 5A254994) (tstamp 5A2944D1)
-    (at 239.522 104.394 90)
+    (at 149.352 71.882 90)
     (descr "USB Mini-B 5-pin SMD connector")
     (tags "USB USB_B USB_Mini connector")
     (path /59FFDB87)
@@ -1773,7 +1773,7 @@
   )
 
   (module MyFT_MicroSD (layer F.Cu) (tedit 5A1FE951) (tstamp 5A2944EA)
-    (at 260.35 166.116)
+    (at 170.18 133.604)
     (descr MicroSD)
     (tags MicroSD)
     (path /5A046BC2)
@@ -1851,7 +1851,7 @@
   )
 
   (module MyFT_MicroSD (layer F.Cu) (tedit 5A2A533E) (tstamp 5A294503)
-    (at 213.614 166.116)
+    (at 123.444 133.604)
     (descr MicroSD)
     (tags MicroSD)
     (path /5A046D0A)
@@ -1929,7 +1929,7 @@
   )
 
   (module MyFT_FPC_45_0.5mm (layer F.Cu) (tedit 5A21102A) (tstamp 5A2A5B41)
-    (at 257.048 111.252 270)
+    (at 166.878 78.74 270)
     (descr "FPC 45Pin 0.5mm")
     (tags "FPC 45Pin 0.5mm")
     (path /5A0030AE)
@@ -2127,7 +2127,7 @@
   )
 
   (module MyFT_DPAD_TB (layer B.Cu) (tedit 5A210AB3) (tstamp 5A294541)
-    (at 248.92 163.83 90)
+    (at 158.75 131.318 90)
     (descr "DPad Top Buttom")
     (tags "DPad Top Buttom")
     (path /5A201F18)
@@ -2148,7 +2148,7 @@
   )
 
   (module MyFT_DPAD_TB (layer B.Cu) (tedit 5A210AB3) (tstamp 5A294547)
-    (at 248.92 148.59 270)
+    (at 158.75 116.078 270)
     (descr "DPad Top Buttom")
     (tags "DPad Top Buttom")
     (path /5A201A49)
@@ -2169,7 +2169,7 @@
   )
 
   (module MyFT_DPAD_TB (layer B.Cu) (tedit 5A210AB3) (tstamp 5A29454D)
-    (at 217.17 163.83 90)
+    (at 127 131.318 90)
     (descr "DPad Top Buttom")
     (tags "DPad Top Buttom")
     (path /5A203D5E)
@@ -2190,7 +2190,7 @@
   )
 
   (module MyFT_DPAD_TB (layer B.Cu) (tedit 5A210AB3) (tstamp 5A294553)
-    (at 209.55 156.21)
+    (at 119.38 123.698)
     (descr "DPad Top Buttom")
     (tags "DPad Top Buttom")
     (path /5A203FA8)
@@ -2211,7 +2211,7 @@
   )
 
   (module MyFT_DPAD_LR (layer B.Cu) (tedit 5A210A2F) (tstamp 5A294559)
-    (at 256.54 156.21 270)
+    (at 166.37 123.698 270)
     (descr "DPad Left Right")
     (tags "DPad Left Right")
     (path /5A2026FB)
@@ -2232,7 +2232,7 @@
   )
 
   (module MyFT_DPAD_LR (layer B.Cu) (tedit 5A210A2F) (tstamp 5A29455F)
-    (at 241.3 156.21 90)
+    (at 151.13 123.698 90)
     (descr "DPad Left Right")
     (tags "DPad Left Right")
     (path /5A202A1C)
@@ -2253,7 +2253,7 @@
   )
 
   (module MyFT_DPAD_LR (layer B.Cu) (tedit 5A210A2F) (tstamp 5A294565)
-    (at 224.79 156.21 270)
+    (at 134.62 123.698 270)
     (descr "DPad Left Right")
     (tags "DPad Left Right")
     (path /5A2041F2)
@@ -2274,7 +2274,7 @@
   )
 
   (module MyFT_DPAD_LR (layer B.Cu) (tedit 5A210A2F) (tstamp 5A29456B)
-    (at 217.17 148.59)
+    (at 127 116.078)
     (descr "DPad Left Right")
     (tags "DPad Left Right")
     (path /5A2039AC)
@@ -2295,7 +2295,7 @@
   )
 
   (module MyFT_CM3354 (layer F.Cu) (tedit 5A1FB3A6) (tstamp 5A2945D7)
-    (at 232.41 133.604)
+    (at 142.24 101.092)
     (descr CM3354)
     (tags CM3354)
     (path /59FFC8E0)
@@ -2685,7 +2685,7 @@
   )
 
   (module MyFT_C_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A2945E3)
-    (at 279.146 154.432)
+    (at 188.976 121.92)
     (descr "0603 Hand Soldering")
     (tags 0603)
     (path /5A005557)
@@ -2718,7 +2718,7 @@
   )
 
   (module MyFT_C_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A2945EF)
-    (at 196.85 143.51)
+    (at 106.68 110.998)
     (descr "0603 Hand Soldering")
     (tags 0603)
     (path /59FFE292)
@@ -2751,7 +2751,7 @@
   )
 
   (module MyFT_C_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A2945FB)
-    (at 275.082 150.876)
+    (at 184.912 118.364)
     (descr "0603 Hand Soldering")
     (tags 0603)
     (path /59FFE318)
@@ -2784,7 +2784,7 @@
   )
 
   (module MyFT_C_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294607)
-    (at 270.002 125.222)
+    (at 179.832 92.71)
     (descr "0603 Hand Soldering")
     (tags 0603)
     (path /5A003AED)
@@ -2817,7 +2817,7 @@
   )
 
   (module MyFT_C_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294613)
-    (at 270.256 141.224)
+    (at 180.086 108.712)
     (descr "0603 Hand Soldering")
     (tags 0603)
     (path /5A003D4A)
@@ -2850,7 +2850,7 @@
   )
 
   (module MyFT_C_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A29461F)
-    (at 224.282 174.244)
+    (at 134.112 141.732)
     (descr "0603 Hand Soldering")
     (tags 0603)
     (path /5A004629)
@@ -2883,7 +2883,7 @@
   )
 
   (module MyFT_C_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A29462B)
-    (at 193.548 149.352)
+    (at 103.378 116.84)
     (descr "0603 Hand Soldering")
     (tags 0603)
     (path /5A0054B8)
@@ -2916,7 +2916,7 @@
   )
 
   (module MyFT_C_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294637)
-    (at 195.58 163.83)
+    (at 105.41 131.318)
     (descr "0603 Hand Soldering")
     (tags 0603)
     (path /5A005901)
@@ -2949,7 +2949,7 @@
   )
 
   (module MyFT_C_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294643)
-    (at 253.238 172.466)
+    (at 163.068 139.954)
     (descr "0603 Hand Soldering")
     (tags 0603)
     (path /5A0059B4)
@@ -2982,7 +2982,7 @@
   )
 
   (module MyFT_C_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A29464F)
-    (at 197.358 137.16)
+    (at 107.188 104.648)
     (descr "0603 Hand Soldering")
     (tags 0603)
     (path /5A008CFA)
@@ -3015,7 +3015,7 @@
   )
 
   (module MyFT_C_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A29465B)
-    (at 258.318 171.958)
+    (at 168.148 139.446)
     (descr "0603 Hand Soldering")
     (tags 0603)
     (path /5A009003)
@@ -3048,7 +3048,7 @@
   )
 
   (module MyFT_C_0603 (layer F.Cu) (tedit 541A9B4D) (tstamp 5A294667)
-    (at 279.146 170.18)
+    (at 188.976 137.668)
     (descr "0603 Hand Soldering")
     (tags 0603)
     (path /5A00E6BA)
@@ -3081,7 +3081,7 @@
   )
 
   (module GS3 (layer F.Cu) (tedit 4267950D) (tstamp 5A2A5A7E)
-    (at 236.728 112.014 270)
+    (at 146.558 79.502 270)
     (descr "Pontet Goute de soudure")
     (path /5A040967)
     (attr virtual)
@@ -3110,7 +3110,7 @@
   )
 
   (module GS3 (layer F.Cu) (tedit 4267950D) (tstamp 5A29467D)
-    (at 286.258 156.718 270)
+    (at 196.088 124.206 270)
     (descr "Pontet Goute de soudure")
     (path /5A007380)
     (attr virtual)
@@ -3139,7 +3139,7 @@
   )
 
   (module GS2 (layer F.Cu) (tedit 426793E6) (tstamp 5A2A5A44)
-    (at 201.676 114.554)
+    (at 111.506 82.042)
     (descr "Pontet Goute de soudure")
     (path /5A01F987)
     (attr virtual)
@@ -3164,7 +3164,7 @@
   )
 
   (module GS2 (layer F.Cu) (tedit 426793E6) (tstamp 5A2A5A72)
-    (at 211.836 114.554)
+    (at 121.666 82.042)
     (descr "Pontet Goute de soudure")
     (path /5A01FA5B)
     (attr virtual)
@@ -3189,7 +3189,7 @@
   )
 
   (module MyFT_SOT-23_Handsoldering (layer F.Cu) (tedit 583F3954) (tstamp 5A2A5ACA)
-    (at 260.858 112.522 180)
+    (at 170.688 80.01 180)
     (descr "SOT-23, Handsoldering")
     (tags SOT-23)
     (path /5A0048DA)
@@ -3232,7 +3232,7 @@
   )
 
   (module MyFT_TS-026-3 (layer F.Cu) (tedit 5A2A5D38) (tstamp 5A2A5AE9)
-    (at 221.488 166.878 90)
+    (at 131.318 134.366 90)
     (descr TS-026-3)
     (tags TS-026-3)
     (path /5A20183B)
@@ -3266,7 +3266,7 @@
   )
 
   (module MyFT_TS-026-3 (layer F.Cu) (tedit 5A2A5D38) (tstamp 5A2A5B08)
-    (at 244.602 166.878 90)
+    (at 154.432 134.366 90)
     (descr TS-026-3)
     (tags TS-026-3)
     (path /5A1FE007)
@@ -3300,7 +3300,7 @@
   )
 
   (module MyFT_TS-026-3 (layer F.Cu) (tedit 5A2A5D38) (tstamp 5A2942A2)
-    (at 205.486 109.22 270)
+    (at 115.316 76.708 270)
     (descr TS-026-3)
     (tags TS-026-3)
     (path /5A2037A6)
@@ -3334,7 +3334,7 @@
   )
 
   (module MyFT_TS-026-3 (layer F.Cu) (tedit 5A2A5D38) (tstamp 5A2942FC)
-    (at 260.096 109.22 270)
+    (at 169.926 76.708 270)
     (descr TS-026-3)
     (tags TS-026-3)
     (path /5A20321F)
@@ -3367,19 +3367,19 @@
     )
   )
 
-  (gr_circle (center 207.01 147.574) (end 210.566 148.082) (layer Edge.Cuts) (width 0.1))
-  (gr_circle (center 259.334 147.574) (end 262.89 148.082) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 200.66 105.664) (end 200.66 170.18) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 265.43 134.112) (end 265.43 170.18) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 265.43 105.664) (end 265.43 110.236) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 263.906 134.112) (end 265.43 134.112) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 263.906 110.236) (end 263.906 134.112) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 265.43 110.236) (end 263.906 110.236) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 220.472 100.076) (end 220.472 105.664) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 245.364 105.664) (end 265.43 105.664) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 245.364 100.076) (end 245.364 105.664) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 220.472 100.076) (end 245.364 100.076) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 200.66 105.664) (end 220.472 105.664) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 265.43 170.18) (end 200.66 170.18) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_circle (center 116.84 115.062) (end 120.396 115.57) (layer Edge.Cuts) (width 0.1))
+  (gr_circle (center 169.164 115.062) (end 172.72 115.57) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 110.49 73.152) (end 110.49 137.668) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 175.26 101.6) (end 175.26 137.668) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 175.26 73.152) (end 175.26 77.724) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 173.736 101.6) (end 175.26 101.6) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 173.736 77.724) (end 173.736 101.6) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 175.26 77.724) (end 173.736 77.724) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 130.302 67.564) (end 130.302 73.152) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 155.194 73.152) (end 175.26 73.152) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 155.194 67.564) (end 155.194 73.152) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 130.302 67.564) (end 155.194 67.564) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 110.49 73.152) (end 130.302 73.152) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 175.26 137.668) (end 110.49 137.668) (angle 90) (layer Edge.Cuts) (width 0.1))
 
 )
