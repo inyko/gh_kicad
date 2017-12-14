@@ -1,8 +1,13 @@
-update=Tue 12 Dec 2017 10:29:41 PM CST
+update=Thu 14 Dec 2017 06:38:18 PM CST
 version=1
 last_client=pcbnew
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -42,14 +47,10 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName31=/home/steward/Github/gh_kicad/mylib/mysch
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=main.net
 UseCmpFile=1
 PadDrill=0.000000000000
 PadDrillOvalY=0.000000000000
@@ -84,4 +85,4 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-LibName17=/home/user/Data/gh_kicad/mylib/myft
+LibName17=/home/steward/Github/gh_kicad/mylib/myft
