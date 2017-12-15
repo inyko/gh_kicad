@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:mysch
 LIBS:main-cache
 EELAYER 27 0
 EELAYER END
@@ -36,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "9 dec 2017"
+Date "15 dec 2017"
 Rev ""
 Comp ""
 Comment1 ""
@@ -894,17 +895,17 @@ Text GLabel 13950 7650 3    60   Input ~ 0
 X
 Text GLabel 14050 7650 3    60   Input ~ 0
 Y
-Text GLabel 10050 7450 2    60   Input ~ 0
+Text GLabel 7050 3950 1    60   Input ~ 0
 UP
-Text GLabel 10050 7250 2    60   Input ~ 0
+Text GLabel 7250 3950 1    60   Input ~ 0
 DOWN
-Text GLabel 10050 7150 2    60   Input ~ 0
+Text GLabel 7150 3950 1    60   Input ~ 0
 LEFT
-Text GLabel 10050 7050 2    60   Input ~ 0
+Text GLabel 7350 3950 1    60   Input ~ 0
 RIGHT
-Text GLabel 10050 6850 2    60   Input ~ 0
+Text GLabel 6850 3950 1    60   Input ~ 0
 SELECT
-Text GLabel 10050 6750 2    60   Input ~ 0
+Text GLabel 6750 3950 1    60   Input ~ 0
 START
 Text GLabel 10050 6650 2    60   Input ~ 0
 L
@@ -1172,7 +1173,7 @@ F 3 "" H 2950 4450 50  0000 C CNN
 $EndComp
 Text GLabel 3600 4350 2    60   Input ~ 0
 AUDIO_MUTE
-Text GLabel 8050 3950 1    60   Input ~ 0
+Text GLabel 5350 5550 0    60   Input ~ 0
 AUDIO_MUTE
 $Comp
 L C C10
@@ -1397,14 +1398,10 @@ NoConn ~ 7850 3950
 NoConn ~ 7750 3950
 NoConn ~ 7650 3950
 NoConn ~ 7550 3950
-NoConn ~ 7350 3950
-NoConn ~ 7250 3950
-NoConn ~ 7150 3950
-NoConn ~ 7050 3950
-NoConn ~ 6850 3950
-NoConn ~ 6750 3950
+NoConn ~ 10050 6850
+NoConn ~ 10050 6750
 NoConn ~ 5350 5450
-NoConn ~ 5350 5550
+NoConn ~ 8050 3950
 NoConn ~ 8500 2050
 NoConn ~ 8400 2050
 NoConn ~ 8300 2050
@@ -2047,9 +2044,9 @@ Wire Wire Line
 	2200 9800 2850 9800
 Connection ~ 2850 9800
 Wire Wire Line
-	12500 1800 13000 1800
+	12500 1800 13100 1800
 Wire Wire Line
-	13300 1800 13800 1800
+	13300 1800 13900 1800
 Wire Wire Line
 	12950 7150 14050 7150
 Connection ~ 12950 7150
@@ -2084,4 +2081,36 @@ Wire Wire Line
 Wire Wire Line
 	1200 4650 1200 4700
 Connection ~ 3350 8150
+$Comp
+L R R29
+U 1 1 5A338549
+P 13100 2050
+F 0 "R29" V 13110 1950 50  0000 C CNN
+F 1 "4.7K" V 13110 2110 50  0000 C CNN
+F 2 "" V 13030 2050 50  0001 C CNN
+F 3 "" H 13100 2050 50  0001 C CNN
+	1    13100 2050
+	1    0    0    1   
+$EndComp
+Connection ~ 13000 1800
+Text GLabel 13100 2300 3    60   Input ~ 0
+SD0_CD
+$Comp
+L R R30
+U 1 1 5A33859F
+P 13900 2050
+F 0 "R30" V 13910 2150 50  0000 C CNN
+F 1 "4.7K" V 13910 1990 50  0000 C CNN
+F 2 "" V 13830 2050 50  0001 C CNN
+F 3 "" H 13900 2050 50  0001 C CNN
+	1    13900 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 13800 1800
+Text GLabel 13900 2300 3    60   Input ~ 0
+SD1_CD
+NoConn ~ 10050 7050
+NoConn ~ 10050 7150
+NoConn ~ 10050 7250
+NoConn ~ 10050 7450
 $EndSCHEMATC

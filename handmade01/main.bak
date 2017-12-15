@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:mysch
 LIBS:main-cache
 EELAYER 27 0
 EELAYER END
@@ -36,7 +37,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "9 dec 2017"
+Date "15 dec 2017"
 Rev ""
 Comp ""
 Comment1 ""
@@ -314,7 +315,7 @@ Text GLabel 5350 6250 0    60   Input ~ 0
 LCD_DB0
 Text GLabel 5350 6350 0    60   Input ~ 0
 LCD_DB9
-Text GLabel 5350 6450 0    60   BiDi ~ 0
+Text GLabel 5350 6450 0    60   Input ~ 0
 LCD_DB12
 Text GLabel 5350 6550 0    60   Input ~ 0
 LCD_DB6
@@ -894,13 +895,13 @@ Text GLabel 13950 7650 3    60   Input ~ 0
 X
 Text GLabel 14050 7650 3    60   Input ~ 0
 Y
-Text GLabel 10050 7450 2    60   Input ~ 0
+Text GLabel 7050 3950 1    60   Input ~ 0
 UP
-Text GLabel 10050 7250 2    60   Input ~ 0
+Text GLabel 7250 3950 1    60   Input ~ 0
 DOWN
-Text GLabel 10050 7150 2    60   Input ~ 0
+Text GLabel 7150 3950 1    60   Input ~ 0
 LEFT
-Text GLabel 10050 7050 2    60   Input ~ 0
+Text GLabel 7350 3950 1    60   Input ~ 0
 RIGHT
 Text GLabel 10050 6850 2    60   Input ~ 0
 SELECT
@@ -1397,10 +1398,6 @@ NoConn ~ 7850 3950
 NoConn ~ 7750 3950
 NoConn ~ 7650 3950
 NoConn ~ 7550 3950
-NoConn ~ 7350 3950
-NoConn ~ 7250 3950
-NoConn ~ 7150 3950
-NoConn ~ 7050 3950
 NoConn ~ 6850 3950
 NoConn ~ 6750 3950
 NoConn ~ 5350 5450
@@ -1985,19 +1982,13 @@ Wire Wire Line
 	1600 4950 1700 4950
 Connection ~ 1600 4950
 Wire Wire Line
-	4300 2050 4400 2050
-Wire Wire Line
-	4400 2050 4500 2050
+	4300 2050 4500 2050
 Connection ~ 4400 2050
 Wire Wire Line
 	5200 2050 5100 2050
 Connection ~ 5100 2050
 Wire Wire Line
-	7800 2050 7900 2050
-Wire Wire Line
-	7900 2050 8000 2050
-Wire Wire Line
-	8000 2050 8100 2050
+	7800 2050 8100 2050
 Connection ~ 8000 2050
 Connection ~ 7900 2050
 Wire Wire Line
@@ -2021,14 +2012,10 @@ Connection ~ 1700 5050
 Wire Wire Line
 	1400 5400 1200 5400
 Wire Wire Line
-	1200 5150 1200 5400
-Wire Wire Line
-	1200 5400 1200 5550
+	1200 5150 1200 5550
 Connection ~ 1200 5400
 Wire Wire Line
-	1000 5150 1000 5400
-Wire Wire Line
-	1000 5400 1000 5550
+	1000 5150 1000 5550
 Connection ~ 1000 5400
 Wire Wire Line
 	1000 5400 800  5400
@@ -2041,9 +2028,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 7550 1100 7550
 Wire Wire Line
-	3350 7550 3350 7950
-Wire Wire Line
-	3350 7950 3350 8150
+	3350 7550 3350 8150
 Connection ~ 3350 7950
 Wire Wire Line
 	1100 7750 1550 7750
@@ -2059,47 +2044,11 @@ Wire Wire Line
 	2200 9800 2850 9800
 Connection ~ 2850 9800
 Wire Wire Line
-	12500 1800 12600 1800
+	12500 1800 13100 1800
 Wire Wire Line
-	12600 1800 12700 1800
+	13300 1800 13900 1800
 Wire Wire Line
-	12700 1800 12800 1800
-Wire Wire Line
-	12800 1800 12900 1800
-Wire Wire Line
-	12900 1800 13000 1800
-Wire Wire Line
-	13300 1800 13400 1800
-Wire Wire Line
-	13400 1800 13500 1800
-Wire Wire Line
-	13500 1800 13600 1800
-Wire Wire Line
-	13600 1800 13700 1800
-Wire Wire Line
-	13700 1800 13800 1800
-Wire Wire Line
-	12950 7150 13050 7150
-Wire Wire Line
-	13050 7150 13150 7150
-Wire Wire Line
-	13150 7150 13250 7150
-Wire Wire Line
-	13250 7150 13350 7150
-Wire Wire Line
-	13350 7150 13450 7150
-Wire Wire Line
-	13450 7150 13550 7150
-Wire Wire Line
-	13550 7150 13650 7150
-Wire Wire Line
-	13650 7150 13750 7150
-Wire Wire Line
-	13750 7150 13850 7150
-Wire Wire Line
-	13850 7150 13950 7150
-Wire Wire Line
-	13950 7150 14050 7150
+	12950 7150 14050 7150
 Connection ~ 12950 7150
 Connection ~ 13300 1800
 Connection ~ 12500 1800
@@ -2132,4 +2081,36 @@ Wire Wire Line
 Wire Wire Line
 	1200 4650 1200 4700
 Connection ~ 3350 8150
+$Comp
+L R R29
+U 1 1 5A338549
+P 13100 2050
+F 0 "R29" V 13110 1950 50  0000 C CNN
+F 1 "4.7K" V 13110 2110 50  0000 C CNN
+F 2 "" V 13030 2050 50  0001 C CNN
+F 3 "" H 13100 2050 50  0001 C CNN
+	1    13100 2050
+	1    0    0    1   
+$EndComp
+Connection ~ 13000 1800
+Text GLabel 13100 2300 3    60   Input ~ 0
+SD0_CD
+$Comp
+L R R30
+U 1 1 5A33859F
+P 13900 2050
+F 0 "R30" V 13910 2150 50  0000 C CNN
+F 1 "4.7K" V 13910 1990 50  0000 C CNN
+F 2 "" V 13830 2050 50  0001 C CNN
+F 3 "" H 13900 2050 50  0001 C CNN
+	1    13900 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 13800 1800
+Text GLabel 13900 2300 3    60   Input ~ 0
+SD1_CD
+NoConn ~ 10050 7050
+NoConn ~ 10050 7150
+NoConn ~ 10050 7250
+NoConn ~ 10050 7450
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Fri 08 Dec 2017 06:28:07 PM CST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Fri 15 Dec 2017 04:05:54 PM CST
 
 BeginCmp
 TimeStamp = /5A040967;
@@ -346,6 +346,20 @@ EndCmp
 BeginCmp
 TimeStamp = /5A1EAFF8;
 Reference = R28;
+ValeurCmp = 4.7K;
+IdModule  = MyFT_R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A338549;
+Reference = R29;
+ValeurCmp = 4.7K;
+IdModule  = MyFT_R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A33859F;
+Reference = R30;
 ValeurCmp = 4.7K;
 IdModule  = MyFT_R_0603;
 EndCmp
