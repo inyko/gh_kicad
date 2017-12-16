@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Thu 14 Dec 2017 06:40:31 PM CST
+PCBNEW-LibModule-V1  Sat 16 Dec 2017 01:34:37 PM CST
 # encoding utf-8
 Units mm
 $INDEX
@@ -3006,7 +3006,7 @@ Po 24 2.3
 $EndPAD
 $EndMODULE MyFT_FPC_45_0.5mm_Rev
 $MODULE MyFT_MicroSD
-Po 0 0 0 15 5A2A6886 00000000 ~~
+Po 0 0 0 15 5A34B069 00000000 ~~
 Li MyFT_MicroSD
 Cd MicroSD
 Kw MicroSD
@@ -3113,7 +3113,7 @@ Ne 0 ""
 Po -11.75 -9.75
 $EndPAD
 $PAD
-Sh "10" C 1.5 1.5 0 0 900
+Sh "11" C 1.5 1.5 0 0 900
 Dr 1 0 0
 At STD N 00C0FFFF
 Ne 0 ""
