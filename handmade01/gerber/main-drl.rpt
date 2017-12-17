@@ -1,0 +1,17 @@
+Drill report for /home/steward/Github/gh_kicad/handmade01/main.kicad_pcb
+Created on Sun 17 Dec 2017 04:12:17 PM CST
+Drill report for plated through holes :
+T1  0.40mm  0.016"  (154 holes)
+T2  0.50mm  0.020"  (2 holes)  (with 2 slots)
+T3  0.55mm  0.022"  (2 holes)  (with 2 slots)
+T4  0.76mm  0.030"  (7 holes)
+T5  1.00mm  0.039"  (18 holes)
+
+Total plated holes count 183
+
+
+Drill report for unplated through holes :
+
+Total unplated holes count 0
+
+
