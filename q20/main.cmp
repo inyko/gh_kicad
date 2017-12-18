@@ -1,0 +1,206 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Mon 18 Dec 2017 04:02:48 PM CST
+
+BeginCmp
+TimeStamp = /5A24F7A6;
+Reference = C1;
+ValeurCmp = 104;
+IdModule  = MyFT_C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A24F7D7;
+Reference = C2;
+ValeurCmp = 104;
+IdModule  = MyFT_C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A24F7F2;
+Reference = C3;
+ValeurCmp = 104;
+IdModule  = MyFT_C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A24F80F;
+Reference = C4;
+ValeurCmp = 104;
+IdModule  = MyFT_C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A24FA7D;
+Reference = C5;
+ValeurCmp = 10uF;
+IdModule  = MyFT_C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A24FD1F;
+Reference = C6;
+ValeurCmp = 10p;
+IdModule  = MyFT_C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A24FD58;
+Reference = C7;
+ValeurCmp = 10p;
+IdModule  = MyFT_C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A24FF7B;
+Reference = J1;
+ValeurCmp = USB_B;
+IdModule  = MyFT_USB_Mini_B_PIN_ONLY;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A24FAC4;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = MyFT_R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A250976;
+Reference = SW1;
+ValeurCmp = UP;
+IdModule  = MyFT_DPAD_TB;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A2509BC;
+Reference = SW2;
+ValeurCmp = DOWN;
+IdModule  = MyFT_DPAD_TB;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A250B09;
+Reference = SW3;
+ValeurCmp = LEFT;
+IdModule  = MyFT_DPAD_LR;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A250B0F;
+Reference = SW4;
+ValeurCmp = RIGHT;
+IdModule  = MyFT_DPAD_LR;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A250BED;
+Reference = SW5;
+ValeurCmp = A;
+IdModule  = MyFT_DPAD_LR;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A250BF3;
+Reference = SW6;
+ValeurCmp = B;
+IdModule  = MyFT_DPAD_TB;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A24FB0F;
+Reference = SW7;
+ValeurCmp = RST;
+IdModule  = MyFT_4.5x4.5_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A250BF9;
+Reference = SW8;
+ValeurCmp = X;
+IdModule  = MyFT_DPAD_TB;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A250BFF;
+Reference = SW9;
+ValeurCmp = Y;
+IdModule  = MyFT_DPAD_LR;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A2511F1;
+Reference = SW10;
+ValeurCmp = L;
+IdModule  = MyFT_4.5x4.5_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A2511F7;
+Reference = SW11;
+ValeurCmp = R;
+IdModule  = MyFT_4.5x4.5_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A2511FD;
+Reference = SW12;
+ValeurCmp = SELECT;
+IdModule  = MyFT_4.5x4.5_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A251203;
+Reference = SW13;
+ValeurCmp = START;
+IdModule  = MyFT_4.5x4.5_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A25156F;
+Reference = SW14;
+ValeurCmp = BK1;
+IdModule  = MyFT_4.5x4.5_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A251575;
+Reference = SW15;
+ValeurCmp = BK2;
+IdModule  = MyFT_4.5x4.5_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A25157B;
+Reference = SW16;
+ValeurCmp = BK3;
+IdModule  = MyFT_4.5x4.5_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A251581;
+Reference = SW17;
+ValeurCmp = BK4;
+IdModule  = MyFT_4.5x4.5_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A24F5A1;
+Reference = U1;
+ValeurCmp = STM32F103_48PIN;
+IdModule  = MyFT_QFN-48-1EP_7x7mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A25AF73;
+Reference = U2;
+ValeurCmp = AMS1117-3.3;
+IdModule  = MyFT_SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A24FCB2;
+Reference = Y1;
+ValeurCmp = 8MHz;
+IdModule  = MyFT_Crystal_SMD_5032_2Pads;
+EndCmp
+
+EndListe
