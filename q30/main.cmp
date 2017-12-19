@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Thu 07 Dec 2017 04:16:59 AM EST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Tue 19 Dec 2017 04:28:02 PM CST
 
 BeginCmp
 TimeStamp = /5A24F7A6;
@@ -53,7 +53,14 @@ BeginCmp
 TimeStamp = /5A24FF7B;
 Reference = J1;
 ValeurCmp = USB_B;
-IdModule  = MyFT_MiniUSB_B;
+IdModule  = MyFT_USB_Mini_B_PIN_ONLY;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A38A19D;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
 EndCmp
 
 BeginCmp
@@ -109,7 +116,7 @@ BeginCmp
 TimeStamp = /5A24FB0F;
 Reference = SW7;
 ValeurCmp = RST;
-IdModule  = MyFT_SW_PUSH_6mm;
+IdModule  = MyFT_4.5x4.5_SMD;
 EndCmp
 
 BeginCmp
@@ -130,63 +137,63 @@ BeginCmp
 TimeStamp = /5A2511F1;
 Reference = SW10;
 ValeurCmp = L;
-IdModule  = MyFT_SW_PUSH_6mm;
+IdModule  = MyFT_4.5x4.5_SMD;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2511F7;
 Reference = SW11;
 ValeurCmp = R;
-IdModule  = MyFT_SW_PUSH_6mm;
+IdModule  = MyFT_4.5x4.5_SMD;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A2511FD;
 Reference = SW12;
 ValeurCmp = SELECT;
-IdModule  = MyFT_SW_PUSH_6mm;
+IdModule  = MyFT_4.5x4.5_SMD;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A251203;
 Reference = SW13;
 ValeurCmp = START;
-IdModule  = MyFT_SW_PUSH_6mm;
+IdModule  = MyFT_4.5x4.5_SMD;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A25156F;
 Reference = SW14;
 ValeurCmp = BK1;
-IdModule  = MyFT_SW_PUSH_6mm;
+IdModule  = MyFT_4.5x4.5_SMD;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A251575;
 Reference = SW15;
 ValeurCmp = BK2;
-IdModule  = MyFT_SW_PUSH_6mm;
+IdModule  = MyFT_4.5x4.5_SMD;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A25157B;
 Reference = SW16;
 ValeurCmp = BK3;
-IdModule  = MyFT_SW_PUSH_6mm;
+IdModule  = MyFT_4.5x4.5_SMD;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A251581;
 Reference = SW17;
 ValeurCmp = BK4;
-IdModule  = MyFT_SW_PUSH_6mm;
+IdModule  = MyFT_4.5x4.5_SMD;
 EndCmp
 
 BeginCmp
 TimeStamp = /5A24F5A1;
 Reference = U1;
 ValeurCmp = STM32F103_48PIN;
-IdModule  = MyFT_QFN-48-1EP_7x7mm_Pitch0.5mm;
+IdModule  = MyFT_LQFP-48-1EP_7x7mm_Pitch0.5mm;
 EndCmp
 
 BeginCmp

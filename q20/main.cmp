@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Mon 18 Dec 2017 04:02:48 PM CST
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Tue 19 Dec 2017 04:28:02 PM CST
 
 BeginCmp
 TimeStamp = /5A24F7A6;
@@ -54,6 +54,13 @@ TimeStamp = /5A24FF7B;
 Reference = J1;
 ValeurCmp = USB_B;
 IdModule  = MyFT_USB_Mini_B_PIN_ONLY;
+EndCmp
+
+BeginCmp
+TimeStamp = /5A38A19D;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
 EndCmp
 
 BeginCmp
@@ -186,7 +193,7 @@ BeginCmp
 TimeStamp = /5A24F5A1;
 Reference = U1;
 ValeurCmp = STM32F103_48PIN;
-IdModule  = MyFT_QFN-48-1EP_7x7mm_Pitch0.5mm;
+IdModule  = MyFT_LQFP-48-1EP_7x7mm_Pitch0.5mm;
 EndCmp
 
 BeginCmp
