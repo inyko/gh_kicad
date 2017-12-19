@@ -703,17 +703,17 @@ Text GLabel 7900 1400 1    49   Input ~ 0
 BK3
 Text GLabel 8250 1400 1    49   Input ~ 0
 BK4
-Text GLabel 6800 3750 2    49   Input ~ 0
+Text GLabel 5700 4500 3    49   Input ~ 0
 UP
-Text GLabel 6800 3850 2    49   Input ~ 0
+Text GLabel 6800 3750 2    49   Input ~ 0
 DOWN
 Text GLabel 6800 3650 2    49   Input ~ 0
 LEFT
-Text GLabel 5700 4500 3    49   Input ~ 0
+Text GLabel 5600 4500 3    49   Input ~ 0
 RIGHT
 Text GLabel 5700 2300 1    49   Input ~ 0
 A
-Text GLabel 6000 2300 1    49   Input ~ 0
+Text GLabel 5800 2300 1    49   Input ~ 0
 B
 Text GLabel 4500 2950 0    49   Input ~ 0
 X
@@ -727,9 +727,9 @@ Text GLabel 6100 2300 1    49   Input ~ 0
 START
 Text GLabel 6800 3350 2    49   Input ~ 0
 SELECT
-Text GLabel 5800 2300 1    49   Input ~ 0
-BK1
 Text GLabel 5900 2300 1    49   Input ~ 0
+BK1
+Text GLabel 6000 2300 1    49   Input ~ 0
 BK2
 Text GLabel 6800 3550 2    49   Input ~ 0
 BK3
@@ -797,7 +797,7 @@ Text GLabel 5050 5500 1    49   Input ~ 0
 RST
 Connection ~ 5050 5500
 NoConn ~ 5900 4500
-NoConn ~ 5600 4500
+NoConn ~ 6800 3850
 Connection ~ 6450 5300
 Connection ~ 5850 5300
 $Comp
