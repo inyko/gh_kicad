@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "19 dec 2017"
+Date "20 dec 2017"
 Rev ""
 Comp ""
 Comment1 ""
@@ -705,7 +705,7 @@ Text GLabel 8250 1400 1    49   Input ~ 0
 BK4
 Text GLabel 6800 3750 2    49   Input ~ 0
 UP
-Text GLabel 6800 3850 2    49   Input ~ 0
+Text GLabel 6800 3950 2    49   Input ~ 0
 DOWN
 Text GLabel 6800 3650 2    49   Input ~ 0
 LEFT
@@ -713,7 +713,7 @@ Text GLabel 5700 4500 3    49   Input ~ 0
 RIGHT
 Text GLabel 5700 2300 1    49   Input ~ 0
 A
-Text GLabel 6000 2300 1    49   Input ~ 0
+Text GLabel 5800 2300 1    49   Input ~ 0
 B
 Text GLabel 4500 2950 0    49   Input ~ 0
 X
@@ -727,9 +727,9 @@ Text GLabel 6100 2300 1    49   Input ~ 0
 START
 Text GLabel 6800 3350 2    49   Input ~ 0
 SELECT
-Text GLabel 5800 2300 1    49   Input ~ 0
-BK1
 Text GLabel 5900 2300 1    49   Input ~ 0
+BK1
+Text GLabel 6000 2300 1    49   Input ~ 0
 BK2
 Text GLabel 6800 3550 2    49   Input ~ 0
 BK3
@@ -741,7 +741,7 @@ NoConn ~ 4500 3850
 NoConn ~ 5400 4500
 NoConn ~ 4500 3750
 NoConn ~ 5800 4500
-NoConn ~ 6800 3950
+NoConn ~ 6800 3850
 NoConn ~ 5200 4500
 NoConn ~ 5300 4500
 NoConn ~ 5400 2300
@@ -841,4 +841,28 @@ F 3 "" H 8100 3050 60  0000 C CNN
 	1    8100 3050
 	-1   0    0    1   
 $EndComp
+$Comp
+L R R2
+U 1 1 5A3A2461
+P 8050 5050
+F 0 "R2" V 8130 5050 40  0000 C CNN
+F 1 "1.5K" V 8057 5051 40  0000 C CNN
+F 2 "~" V 7980 5050 30  0000 C CNN
+F 3 "~" H 8050 5050 30  0000 C CNN
+	1    8050 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR031
+U 1 1 5A3A248D
+P 8050 4800
+F 0 "#PWR031" H 8050 4890 20  0001 C CNN
+F 1 "+5V" H 8050 4890 30  0000 C CNN
+F 2 "" H 8050 4800 60  0000 C CNN
+F 3 "" H 8050 4800 60  0000 C CNN
+	1    8050 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 8050 5300 3    49   Input ~ 0
+USB_DP
 $EndSCHEMATC

@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "19 dec 2017"
+Date "20 dec 2017"
 Rev ""
 Comp ""
 Comment1 ""
@@ -841,4 +841,28 @@ F 3 "" H 8100 3050 60  0000 C CNN
 	1    8100 3050
 	-1   0    0    1   
 $EndComp
+$Comp
+L R R2
+U 1 1 5A3A2831
+P 8150 5050
+F 0 "R2" V 8230 5050 40  0000 C CNN
+F 1 "1.5K" V 8157 5051 40  0000 C CNN
+F 2 "~" V 8080 5050 30  0000 C CNN
+F 3 "~" H 8150 5050 30  0000 C CNN
+	1    8150 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR031
+U 1 1 5A3A2858
+P 8150 4800
+F 0 "#PWR031" H 8150 4890 20  0001 C CNN
+F 1 "+5V" H 8150 4890 30  0000 C CNN
+F 2 "" H 8150 4800 60  0000 C CNN
+F 3 "" H 8150 4800 60  0000 C CNN
+	1    8150 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 8150 5300 3    49   Input ~ 0
+USB_DP
 $EndSCHEMATC
